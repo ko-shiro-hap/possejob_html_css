@@ -2,11 +2,38 @@ html {
   font-size: 16px;
 }
 
+body {
+  display: flex;
+}
+
 /* start nav */
 .nav {
-  display: none;
+  width: 20%;
+  border-right: solid 1px #c7c7c7;
+}
+
+.nav__item {
+  padding: 20px;
+}
+
+.nav__item:nth-child(2) {
+  background-color: #dddddd;
+}
+
+.nav__item i {
+  margin-right: 20px;
+  color: #a1a1a1;
+}
+
+.nav__item a {
+  color: #000;
+  text-decoration: none;
 }
 /* end nav */
+
+.content {
+  width: 80%;
+}
 
 /* start header */
 .header {
@@ -80,7 +107,7 @@ html {
 
 .admin__table th,
 td {
-  padding: 20px;
+  padding: 16px;
   vertical-align: middle;
   font-size: 0.8rem;
   font-weight: normal;
