@@ -6,36 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>possejobサンプルページ</title>
 
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/6c20dffe37.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
     <link rel="stylesheet" href="./assets/styles/style.css" />
   </head>
   <body>
+    <!-- start nav -->
+    <nav class="nav">
+      <ul class="nav__items">
+        <li class="nav__item">
+          <i></i>
+          <a href="#">Welcome</a>
+        </li>
+        <li class="nav__item">
+          <i></i>
+          <a href="#">Users</a>
+        </li>
+        <li class="nav__item">
+          <i></i>
+          <a href="#">Register Company</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- end nav -->
+
     <!-- start header -->
     <header class="header">
-      <nav class="header__nav">
-        <ul class="header__nav__items">
-          <li class="header__nav__item">
-            <i></i>
-            <a href="#">Welcome</a>
-          </li>
-          <li class="header__nav__item">
-            <i></i>
-            <a href="#">Users</a>
-          </li>
-          <li class="header__nav__item">
-            <i></i>
-            <a href="#">Register Company</a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="header__hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+      <div class="header__left">
+        <div class="header__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h1 class="header__title">サンプルページ for Admin</h1>
       </div>
-
-      <h1>サンプルページ for Admin</h1>
-      <a href="#"><i></i></a>
+      <a href="#"><i class="fa-regular fa-comment-dots header__icon"></i></a>
     </header>
     <!-- end header -->
 
