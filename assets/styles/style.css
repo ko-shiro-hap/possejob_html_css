@@ -14,8 +14,9 @@ html {
   padding: 20px;
   justify-content: space-between;
   align-items: center;
-  background-color: #0000b9;
+  background-color: #0000a8;
   color: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
 }
 
 .header__left {
@@ -26,7 +27,7 @@ html {
 
 .header__hamburger {
   display: flex;
-  gap: 2px;
+  gap: 3px;
   width: 16px;
   height: 100%;
   flex-direction: column;
@@ -50,3 +51,70 @@ html {
   color: #fff;
 }
 /* end header */
+
+/* start main */
+.main {
+  padding: 40px 12px;
+}
+
+.search-input {
+  padding: 12px;
+  width: 100%;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  border: solid 1px #a1a1a1;
+  box-sizing: border-box;
+}
+
+.admin__table {
+  width: 100%;
+  margin-top: 20px;
+  border: solid 1px #dddddd;
+  border-top: none;
+}
+
+.admin__table tr {
+  border-bottom: solid 1px #c7c7c7;
+  border-radius: 8px;
+}
+
+.admin__table th,
+td {
+  padding: 20px;
+  vertical-align: middle;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.admin__table th {
+  text-align: left;
+}
+
+.admin__user-icon {
+  width: 54px;
+  height: 54px;
+  font-size: 1.8rem;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #0000a8;
+  color: #fff;
+}
+
+.admin__user-icon span {
+  line-height: 54px;
+}
+
+.admin__license__items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.admin__license__item {
+  padding: 4px 8px;
+  width: fit-content;
+  border: solid 1px #058e00;
+  color: #058e00;
+  border-radius: 16px;
+  font-size: 0.7rem;
+}
